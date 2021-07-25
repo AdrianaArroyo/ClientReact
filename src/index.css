@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.background-pages {
+    background-image: url("https://cutt.ly/sm1t2Cr");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: rgb(29,29,33);
+    background: linear-gradient(142deg, rgba(29,29,33,1) 19%, rgba(48,48,54,1) 38%, rgba(180,198,201,1) 98%);
 }
+
+.btn-new {
+    float: right;
+    padding: 20px; 
+}
+
+.btn-margin-left {
+    margin-left: 10px;
+}
+
+.btn-margin-top {
+    margin-top: 15px;
+}
+
+.div-center-content {
+    align-content: center;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.card-button  > a{
+    color: white;
+}
+
+.card-details {
+    align-items: center;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    gap: 20px;
+}
+
+.card-grid > *{
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.card-padding {
+    padding: 5px;
+}
+
+.div-padding {
+    padding-top: 30px;
+}
+
+.form-addletter {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-b {
+    background-color: #303036;
+}
+
+.add-input {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    row-gap: 5px;
+}
+
+label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav { 
+    min-height: 75px;
+    max-height: 75px;
+}
+
+.section {
+    min-height: calc(100vh - 150px);
+}
+
+.table-colors{
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.tittle-center {
+    text-align: center;
+}
+
+.tittle-supplies {
+    background-color: aliceblue;
+}
+
